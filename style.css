@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: red 1px solid;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: bu 2000ms infinite alternate; 
+    margin:center;
+    
+}
+
+@keyframes bu {
+    0% {
+        color: transparent;
+    }
+
+    100% {
+        font-size: 75vw;
+    }
+}
